@@ -308,3 +308,135 @@ body {
     height: auto;
     background-color: white;
 }
+
+.long-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 45px;
+    background-color: var(--grey);
+    padding: 41px 60px;
+    gap: 30px;
+    border: 1px solid var(--dark);
+    border-bottom-width: 5px;
+}
+
+.card-selected {
+    background-color: var(--green);
+}
+
+.justify-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-between span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.justify-between span h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.justify-between span h4 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.long-card p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.horizontal-divider {
+    width: auto;
+    height: 1px;
+    background-color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.justify-between button {
+    background-color: none;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.justify-between button:hover {
+    cursor: pointer;
+}
+
+.section-nine {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 140px;
+}
+
+.section-eleven {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-eleven span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 40px 35px;
+    border: 1px solid var(--dark);
+    border-bottom-width: 5px;
+    border-radius: 45px;
+    width: auto;
+}
+
+.photo-and-name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.photo-and-name img:last-of-type {
+    width: 34;
+    height: 34px;
+    margin-left: auto;
+}
+
+.photo-and-name span {
+    margin-top: auto;
+}
+
+.photo-and-name span h6 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.photo-and-name span p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.team-card p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+}
